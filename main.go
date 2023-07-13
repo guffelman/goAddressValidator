@@ -99,6 +99,9 @@ func validateAddress(address string) string {
 	// You'll need to use your preferred JSON decoding library here.
 	// For simplicity, let's assume the response has a "results" field and a "formatted_address" field.
 	// You might need to adjust this code depending on the structure of the actual response.
+	// I haven't played with our Google API key yet so this is just example code. When I get an example of an 'official' response
+	// I'll update it to work with that.
+	
 	// Here, we assume the response looks something like this:
 	// {
 	//   "results": [
